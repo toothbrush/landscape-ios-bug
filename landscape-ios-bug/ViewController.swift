@@ -15,6 +15,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func shareButtonPressed(_ sender: Any) {
+        let image = UIImage(named: "example")
+        let activityViewController = UIActivityViewController(activityItems: [image!], applicationActivities: nil)
+        present(activityViewController, animated: true, completion: nil)
+    }
+    
 }
 
