@@ -24,18 +24,30 @@
                                     <action selector="shareButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oLj-Sz-zip"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIZ-eu-VHu">
+                                <rect key="frame" x="64" y="87" width="390" height="81.5"/>
+                                <string key="text">1. Click the Share button.
+2. Select Signal app.
+3. Pick a contact to share with.
+4. Attempt to send: impossible. View unresponsive.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="nIZ-eu-VHu" firstAttribute="top" secondItem="JDQ-Cu-7Aq" secondAttribute="bottom" constant="8" id="Avd-9g-HQL"/>
                             <constraint firstItem="JDQ-Cu-7Aq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E9m-Dd-lGH"/>
                             <constraint firstItem="JDQ-Cu-7Aq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Jdh-a8-Abj"/>
+                            <constraint firstItem="nIZ-eu-VHu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="uB4-nI-hJb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="119"/>
+            <point key="canvasLocation" x="131.91964285714286" y="118.84057971014494"/>
         </scene>
     </scenes>
 </document>
